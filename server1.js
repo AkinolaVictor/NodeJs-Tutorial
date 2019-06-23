@@ -1,3 +1,5 @@
+/*running a server on the web*/
+
 let http = require('http');
 let server = http.createServer(function(req, res){
     console.log('request was made: '+ req.url);
