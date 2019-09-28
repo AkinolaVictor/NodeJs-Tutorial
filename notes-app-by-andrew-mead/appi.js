@@ -1,6 +1,5 @@
 const chalk = require('chalk')
 const yargs = require('yargs')
-const notes = require('./note.js')
 
 
 
