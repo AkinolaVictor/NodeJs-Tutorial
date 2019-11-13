@@ -8,5 +8,6 @@ let server = http.createServer(function(req, res){
     res.end("Hello server, i'm on you");
 });
 
-server.listen(3000, '127.0.0.1');
+server;
+app.listen(3000, '127.0.0.1');
 console.log('yo dawgs, now listening to port 3000 to obtain data');
