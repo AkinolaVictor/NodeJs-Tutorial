@@ -2,7 +2,7 @@
 
 //using the require module
 let http = require('http');
-let server = http.createServer(function(req, res){
+const server = http.createServer(function(req, res){
     console.log('request was made: '+ req.url);
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello server, i'm on you");
