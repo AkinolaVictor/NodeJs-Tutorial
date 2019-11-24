@@ -1,6 +1,6 @@
 /*running a server on the web*/
 
-//using the require module
+//using the require module for http
 let http = require('http');
 const server = http.createServer(function(req, res){
     console.log('request was made: '+ req.url);
